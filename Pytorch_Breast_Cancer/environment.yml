@@ -1,0 +1,11 @@
+name: pytorch-env
+dependencies:
+  - python=3.10
+  - pytorch=2.1.0
+  - scikit-learn
+  - pip
+  - pip:
+      - azureml-sdk
+      - mlflow
+      - numpy
+      - matplotlib
